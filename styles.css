@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+    background: rgb(30,87,153); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgb(30,87,153) 0%, rgb(41,137,216) 50%, rgb(125,185,232) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgb(30,87,153) 0%,rgb(41,137,216) 50%,rgb(125,185,232) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgb(30,87,153) 0%,rgb(41,137,216) 50%,rgb(125,185,232) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    font-family: 'Bungee', cursive;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-basis: 10vh;
+    color: #badcff;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.pomodoro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
+    width: 300px;
+    background-color: #001f70;
+    border-radius: 50%;
+    color: white;
+    font-size: 70px;
+}
+
+.buttons {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.button {
+    color: #001f70;
+}
+
+.button:hover {
+    color: #0047ff;
+    cursor: pointer;
+}

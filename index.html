@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pomodoro Timer</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+    </head>
+    <body>
+        <div class="title">
+                Pomodoro Clock
+        </div>
+        <div class="container">
+            
+            <div class="pomodoro">
+                
+            </div>
+            <div class="buttons">
+                <i class="fa fa-play-circle fa-4x button start" aria-hidden="true" onclick="startCounter()"></i>
+                <i class="fa fa-stop-circle fa-4x button stop" aria-hidden="true" onclick="stopCounter()"></i>
+                <i class="fa fa-pause-circle fa-4x button pause" aria-hidden="true" onclick="pauseCounter()"></i>
+                <i class="fa fa-refresh fa-4x button refresh" aria-hidden="true" onclick="refreshCounter()"></i>
+            </div>
+        </div>
+        <script type="text/javascript" src="pomodoro.js"></script>
+    </body>
+</html>
